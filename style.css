@@ -289,8 +289,8 @@ nav.main-nav ul li a {
     position: relative;
     display: inline-block;
 }
-
-nav.main-nav ul li a:hover {
+nav.main-nav ul li a:hover,
+nav.main-nav ul li.active a{
     color: #0B0D17;
 }
 
@@ -310,6 +310,7 @@ nav.main-nav ul li a:after {
     transition: ease-out .5s;
 }
 
-nav.main-nav ul li a:hover:after {
+nav.main-nav ul li a:hover:after,
+nav.main-nav ul li.active a:after{
     width: 100%;
 }
