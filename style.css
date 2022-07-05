@@ -192,6 +192,16 @@ h2.my-recipe-title {
 .my-recipe-itm-img{
     border-radius: 20px;
     height: 308px;
+    transition: 0.9s ease-out;
+}
+.my-recipe-itm-img-cntlr{
+    overflow: hidden;
+    border-radius: 20px;
+}
+.my-recipe-item:hover .my-recipe-itm-img{
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 .inline-bg{
     background-position: center;
