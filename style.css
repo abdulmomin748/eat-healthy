@@ -181,11 +181,12 @@ h2.my-recipe-title {
 .my-recipe-sec-title p {
     margin-bottom: 38px;
 }
-.my-recipe-item-cntlr ul {
+.my-recipe-item-cntlr .ul{
     display: flex;
     margin: 0 -10px;
+    flex-wrap: wrap;
 }
-.my-recipe-item-cntlr ul li {
+.my-recipe-item-cntlr .ul .li {
     padding: 0 10px;
     width: 50%;
 }
